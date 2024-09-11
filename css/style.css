@@ -110,6 +110,18 @@ section{
     width: calc((100% / 12) * 4);
 }
 
+.col-5{
+    width: calc((100% / 12) * 5);
+}
+
+.col-6{
+    width: 50%
+}
+
+.col-7{
+    width: calc((100% / 12) * 7);
+}
+
 .col-8{
     width: calc((100% / 12) * 8);
 }
@@ -184,8 +196,14 @@ section{
 
     .col-4{
 
+        a{
+            text-decoration: none;
+        }
+
         p{
             padding-bottom: 2.5rem;
+            font-size: .85rem;
+            line-height: 1.15rem;
         }
 
         p:last-child{
@@ -315,5 +333,33 @@ section{
         }
     }
     
+}
+
+#partner{
+
+    p{
+        padding-bottom: 1.5rem;
+        font-size: .85rem;
+        line-height: 1.15rem;
+    }
+
+    .row{
+        margin-top: 2rem;
+
+        .col-5{
+            padding: 2rem 0 2rem 2rem;
+
+            h3{
+                margin-bottom: .75rem;
+            }
+
+            a{
+                text-decoration: none;
+                background-color: var(--drop-light);
+                color: var(--drop-dark);
+                border: 1px solid var(--drop-dark);
+            }
+        }
+    }
 }
 /* #endregion main */
