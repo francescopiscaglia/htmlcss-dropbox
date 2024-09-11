@@ -90,6 +90,10 @@ a{
     background-color: var(--drop-btn);
     padding: .5rem;
 }
+
+.pt-2rem{
+    padding-top: 2rem;
+}
 /* #endregion utilities */
 
 /* #region header */
@@ -124,7 +128,7 @@ a{
     background-color: var(--drop-lighter);
     
     .container{
-        width: 60%;
+        width: 70%;
         margin: auto;
         padding: 2rem;
     }
@@ -143,10 +147,15 @@ a{
     .col-4{
 
         p{
-            padding-bottom: 2rem;
+            padding-bottom: 2.5rem;
         }
 
         p:last-child{
+            padding-top: 2rem;
+        }
+
+        .fa-arrow-down{
+            font-size: 2rem;
             padding-top: 2rem;
         }
     }
