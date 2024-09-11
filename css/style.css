@@ -14,8 +14,7 @@ img{
     max-width: 100%;
 }
 
-a{
-    text-decoration: none;
+a:nth-of-type(.buy-now){
     color: var(--drop-dark);
 }
 
@@ -141,6 +140,10 @@ section{
             vertical-align: middle;
         }
 
+        a{
+            text-decoration: none;
+        }
+
         a:not(.btn){
             padding: 1rem;
         }
@@ -246,6 +249,14 @@ section{
 
             .btn{
                 padding: .75rem;
+            }
+
+            .buy-now{
+                margin-top: 2rem;
+
+                a{
+                    text-decoration
+                }
             }
         }
     }
