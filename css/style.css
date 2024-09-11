@@ -217,6 +217,7 @@ section{
     .plan-option{
         padding: 1rem;
         font-size: .75rem;
+        border: 1px solid lightgray;
         
         h3{
             font-size: 1rem;
@@ -249,15 +250,31 @@ section{
 
             .btn{
                 padding: .75rem;
+                text-decoration: none;
             }
 
             .buy-now{
-                margin-top: 2rem;
-
-                a{
-                    text-decoration
-                }
+                margin-top: 2rem;   
             }
+        }
+
+        hr{
+            width: 25%;
+            margin-top: 1rem;
+
+        }
+
+        .main-info{
+            margin-top: 2rem;
+
+            .fa-check{
+                color: var(--drop-btn);
+            }
+
+            .checked-info{
+                margin-top: 1rem;
+            }
+            
         }
     }
     
