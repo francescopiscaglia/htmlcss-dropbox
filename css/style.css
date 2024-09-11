@@ -18,6 +18,10 @@ a{
     text-decoration: none;
     color: var(--drop-dark);
 }
+
+section{
+    padding-top: 2rem;
+}
 /* #endregion common */
 
 /* #region color palette */
@@ -204,7 +208,26 @@ a{
     .single-plan{
         padding: .5rem 0rem;
         text-align: center;
-        border: 1px solid;
+        border: 1px solid lightgray;
+    }
+
+    .plan-option{
+        padding: 1rem;
+        font-size: .75rem;
+
+        h3{
+            font-size: 1rem;
+        }
+
+        .price{
+            font-weight: bold;
+            display: block;
+            padding: 1rem 0rem;
+        }
+
+        .month{
+            color: gray;
+        }
     }
     
 }
