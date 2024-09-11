@@ -214,7 +214,7 @@ section{
     .plan-option{
         padding: 1rem;
         font-size: .75rem;
-
+        
         h3{
             font-size: 1rem;
         }
@@ -227,6 +227,26 @@ section{
 
         .month{
             color: gray;
+        }
+
+        .specific-info{
+
+            .id{
+                padding-top: 3rem;
+            }
+
+            .share{
+                margin-bottom: 2rem;
+            }
+
+            span{
+                display: block;
+                padding-bottom: 1rem;
+            }
+
+            .btn{
+                padding: .75rem;
+            }
         }
     }
     
