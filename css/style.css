@@ -3,11 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: gray;
+    /* border: 1px dashed; */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
     max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--drop-dark);
 }
 /* #endregion common */
 
@@ -29,9 +38,55 @@ root:{
 
 /* #endregion color palette */
 
-
 /* #region utilities */
 .debug{
+    #app-header{
+        background-color: lightcyan;
+        height: 50px;
+
+        .left-menu{
+            background-color: lightcoral;
+            width: 50%;
+        }
+
+        .right-menu{
+            background-color: burlywood;
+            width: 50%;
+        }
+    }
+       
 
 }
 /* #endregion utilities */
+
+/* #region header */
+#app-header{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    .left-menu, .right-menu{
+        width: 50%;
+        font-size: .65rem;
+        
+        img{
+            width: 4.5rem;
+            vertical-align: middle;
+        }
+
+        a{
+            padding: 1rem;
+        }
+    }
+
+    .right-menu{
+        text-align: end;
+    }
+
+    
+
+    
+}
+
+
+/* #endregion header */
