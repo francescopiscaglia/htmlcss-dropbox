@@ -11,6 +11,25 @@ img{
 }
 /* #endregion common */
 
+/* #region color palette */
+root:{
+    --drop-light: #ffffff;
+    --drop-dark: #000000;
+    --drop-lighter: #b4d0e7;
+    --drop-btn: #0061ff;
+    --drop-designit: #a2d39b;
+    --drop-asu: #61082b;
+    --drop-uf: #0093ce;
+    --drop-topps: #ff1c1c;
+    --drop-bycicle: #d5001f;
+    --drop-planet: #0d2481;
+    --drop-hearst: #b4d0e7;
+    --drop-clear-channel: #ffd830;
+}
+
+/* #endregion color palette */
+
+
 /* #region utilities */
 .debug{
 
