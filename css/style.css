@@ -66,10 +66,16 @@ section{
         
         }
         
-        
+        .row{
+            background-color: yellow;
+            margin-left: -1rem;
+        }
 
         .col-4{
             background-color: red;
+            height: 100px;
+            border: 1px dashed black;
+            padding: 0rem 0rem 1rem 1rem;
            
         }
 
@@ -359,6 +365,25 @@ section{
                 color: var(--drop-dark);
                 border: 1px solid var(--drop-dark);
             }
+        }
+    }
+}
+
+#operation{
+
+    .container-sm{
+
+        h2{
+            
+        }
+    }
+
+    .row{
+        margin-left: -1rem;
+
+        .col-4{
+            padding: 2rem 0rem 1rem 1rem;
+            border: 1px dashed black;
         }
     }
 }
