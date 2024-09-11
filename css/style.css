@@ -379,12 +379,10 @@ section{
     }
 
     .row{
-        margin-left: -1rem;
+        margin-left: -2rem;
 
         .col-4{
-            padding: 2rem 0rem 1rem 1rem;
-            border: 1px dashed black;
-
+            padding: 2rem 0rem 1rem 2rem;
         }
     }
 
