@@ -384,6 +384,20 @@ section{
         .col-4{
             padding: 2rem 0rem 1rem 1rem;
             border: 1px dashed black;
+
+        }
+    }
+
+    .card-details{
+
+        h3{
+            font-size: .8rem;
+        }
+
+        p{
+            padding-top: 1rem;
+            font-size: .75rem;
+            line-height: 1rem;
         }
     }
 }
