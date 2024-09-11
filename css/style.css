@@ -46,7 +46,6 @@ section{
 .debug{
     #app-header{
         background-color: lightcyan;
-        height: 50px;
 
         .left-menu{
             background-color: lightcoral;
@@ -61,23 +60,22 @@ section{
 
     section{
         background-color: lightgrey;
-        min-height: 300px;
 
         .container{
             background-color: yellowgreen;
-            min-height: 300px;
+        
         }
         
         
 
         .col-4{
             background-color: red;
-            height: 300px;
+           
         }
 
         .col-8{
             background-color: black;
-            height: 300px;
+           
         }
     }
 
@@ -101,17 +99,19 @@ section{
 .row{
     display: flex;
     flex-wrap: wrap;
-    font-size: 
-    margin: 0 -1rem;
+    align-items: stretch;
 }
 
 .col-4{
-    width: calc((100% / 12) * 4);
+    flex: 1 1 calc((100% / 12) * 4);
 }
 
 .col-8{
     width: calc((100% / 12) * 8);
-    
+}
+
+.col-12{
+    width: 100%;
 }
 
 .btn{
@@ -219,6 +219,7 @@ section{
         padding: 1rem;
         font-size: .75rem;
         border: 1px solid lightgray;
+        height: 100%; 
         
         h3{
             font-size: 1rem;
