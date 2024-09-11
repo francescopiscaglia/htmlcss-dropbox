@@ -54,6 +54,16 @@ a{
             width: 50%;
         }
     }
+
+    #jumbotron{
+        background-color: lightgrey;
+        min-height: 300px;
+
+        .container{
+            background-color: yellowgreen;
+            height: 300px;
+        }
+    }
 }
 /* #endregion utilities */
 
@@ -88,3 +98,15 @@ a{
     }
 }
 /* #endregion header */
+
+/* #region main */
+#jumbotron{
+    
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+/* #endregion main */
