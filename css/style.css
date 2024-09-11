@@ -1,6 +1,18 @@
+/* #region common */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: gray;
 }
+
+img{
+    max-width: 100%;
+}
+/* #endregion common */
+
+/* #region utilities */
+.debug{
+
+}
+/* #endregion utilities */
