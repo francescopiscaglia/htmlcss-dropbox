@@ -81,11 +81,11 @@ root:{
 
     .right-menu{
         text-align: end;
+
+        .btn{
+            background-color: var(--drop-btn);
+        }
     }
-
-    
-
-    
 }
 
 
