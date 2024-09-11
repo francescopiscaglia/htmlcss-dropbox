@@ -64,6 +64,8 @@ a{
             background-color: yellowgreen;
             min-height: 300px;
         }
+        
+        
 
         .col-4{
             background-color: red;
@@ -75,23 +77,29 @@ a{
             height: 300px;
         }
     }
+
+    .container-sm{
+        background-color: blue;
+    }
 }
 
 .container{
     width: 70%;
     margin: auto;
-    padding: 2rem;
+    padding: 2rem 0rem;
 }
 
 .container-sm{
     width: 60%;
     margin: auto;
-    padding: 2rem;
+    padding: 2rem 0rem;
 }
 
 .row{
     display: flex;
-    font-size: .75rem;
+    flex-wrap: wrap;
+    font-size: 
+    margin: 0 -1rem;
 }
 
 .col-4{
@@ -100,6 +108,7 @@ a{
 
 .col-8{
     width: calc((100% / 12) * 8);
+    
 }
 
 .btn{
@@ -177,21 +186,25 @@ a{
         margin-right: .25rem;
     }
 
-    span{
-        margin-right: 2rem;
+    .payment-plan{
+
+        span{
+            margin-right: 2rem;
+        }
     }
 
     .row{
         margin-top: 2rem;
 
         .col-4{
-            border: 1px solid gray;
+            padding: 0 1rem 0 0;
         }
     }
 
     .single-plan{
-        padding: .5rem;
+        padding: .5rem 0rem;
         text-align: center;
+        border: 1px solid;
     }
     
 }

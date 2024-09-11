@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="deug">
+<body class="debg">
     
     <!-- App header -->
     <header id="app-header">
@@ -60,9 +60,12 @@
                     Trova il piano business che fa per te
                 </h2>
                 <!-- select payment plan -->
-                <input type="radio">
-                <span>Fatturazione mensile</span>
-                <input type="radio"><span>Fatturazione annuale</span>
+                <div class="payment-plan">
+                    <input type="radio">
+                    <span>Fatturazione mensile</span>
+                    <input type="radio">
+                    <span>Fatturazione annuale</span>
+                </div>
                 <!-- select business plan -->
                 <div class="row">
                     <div class="col-4">
@@ -72,8 +75,21 @@
                             <span>Singolo</span>
                         </div>
                     </div>
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <!-- single plan -->
+                        <div class="single-plan">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <!-- single plan -->
+                        <div class="single-plan">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
         </section>
