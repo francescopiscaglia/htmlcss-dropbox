@@ -208,10 +208,11 @@ section{
         }
     }
 
-    .single-plan{
+    .access-plan{
         padding: .5rem 0rem;
         text-align: center;
         border: 1px solid lightgray;
+        font-size: .75rem;
     }
 
     .plan-option{
