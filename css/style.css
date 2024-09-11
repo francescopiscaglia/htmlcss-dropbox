@@ -21,7 +21,7 @@ a{
 /* #endregion common */
 
 /* #region color palette */
-root:{
+:root{
     --drop-light: #ffffff;
     --drop-dark: #000000;
     --drop-lighter: #b4d0e7;
@@ -54,8 +54,6 @@ root:{
             width: 50%;
         }
     }
-       
-
 }
 /* #endregion utilities */
 
@@ -63,18 +61,18 @@ root:{
 #app-header{
     display: flex;
     align-items: center;
-    padding: 1rem;
-
+    
     .left-menu, .right-menu{
         width: 50%;
         font-size: .65rem;
+        margin: 1rem;
         
         img{
             width: 4.5rem;
             vertical-align: middle;
         }
 
-        a{
+        a:not(.btn){
             padding: 1rem;
         }
     }
@@ -83,10 +81,10 @@ root:{
         text-align: end;
 
         .btn{
+            color: var(--drop-light);
             background-color: var(--drop-btn);
+            padding: .5rem;
         }
     }
 }
-
-
 /* #endregion header */
