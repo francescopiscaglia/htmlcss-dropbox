@@ -378,9 +378,18 @@ section{
 
     .sponsor{
 
+        .col-6{
+            aspect-ratio: 1;
+        }
+
         img{
             width: 6rem;
-           
+            border: none;
+            filter: invert(100%);
+        }
+
+        #designit{
+            background-color: var(--drop-designit);
         }
     }
 }
