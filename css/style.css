@@ -38,6 +38,7 @@ section{
     --drop-planet: #0d2481;
     --drop-hearst: #b4d0e7;
     --drop-clear-channel: #ffd830;
+    --drop-center-sponsor-bg: #f5f5f5;
 }
 
 /* #endregion color palette */
@@ -419,6 +420,27 @@ section{
         #clear-channel{
             background-color: var(--drop-clear-channel);
         }
+
+    }
+
+    .center-sponsor{
+        background-color: var(--drop-center-sponsor-bg);
+        padding: 2rem;
+
+        img{
+            width: 10rem;
+        }
+
+        .sponsor-description{
+            margin-top: 2rem;
+            font-size: .85rem;
+
+            span{
+                display: inline-block;
+                margin-top: 2rem;
+            }
+        }
     }
 }
+
 /* #endregion main */
