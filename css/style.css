@@ -90,6 +90,10 @@ section:not(#sponsor, #jumbotron){
     flex-wrap: wrap;
 }
 
+.fd-column{
+    flex-direction: column;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -298,6 +302,9 @@ section:not(#sponsor, #jumbotron){
             color: gray;
         }
 
+        i{
+            padding-right: .5rem;
+        }
         .specific-info{
 
             .id{
