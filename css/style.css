@@ -474,4 +474,26 @@ section{
     }
 }
 
+#faq{
+
+    .q-a-a{
+        .question, .down-arrow{
+            display: inline-block;
+        }
+
+    }
+    
+}
+
+.answer{
+    display: none;
+}
+
+.q-a-a:hover .answer{
+    display: block;
+}
+
+.q-a-a:hover .down-arrow{
+    transform: rotate(180deg);
+}
 /* #endregion main */
