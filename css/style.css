@@ -403,6 +403,22 @@ section{
         #topps{
             background-color: var(--drop-topps);
         }
+
+        #bycicle-relief{
+            background-color: var(--drop-bycicle);
+        }
+
+        #hearst{
+            background-color: var(--drop-hearst);
+        }
+
+        #lonely-planet{
+            background-color: var(--drop-planet);
+        }
+
+        #clear-channel{
+            background-color: var(--drop-clear-channel);
+        }
     }
 }
 /* #endregion main */
