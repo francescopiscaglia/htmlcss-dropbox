@@ -162,10 +162,10 @@ section{
 /* #region header */
 #app-header{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #a1a1a1;
     
     .left-menu, .right-menu{
-        width: 50%;
         font-size: .65rem;
         margin: 1rem;
         
@@ -182,11 +182,7 @@ section{
             padding: 1rem;
         }
     }
-
-    .right-menu{
-        text-align: end;
-    }
-}
+} 
 /* #endregion header */
 
 /* #region main */
