@@ -187,6 +187,10 @@ section:not(#sponsor, #jumbotron){
             padding: 1rem;
         }
     }
+
+    a:hover {
+        border-bottom: 2px solid var(--drop-btn);
+    }
 } 
 /* #endregion header */
 
