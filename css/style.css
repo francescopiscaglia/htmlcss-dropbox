@@ -541,6 +541,23 @@ section:not(#sponsor){
             font-size: .75rem;
         }
     }
+
+    hr{
+        border: 1px solid lightgray;
+        width: 10%;
+        margin-top: 2rem;
+    }
+
+    .language{
+        padding-top: 2rem;
+        font-size: .75rem;
+        color: lightgray;
+
+        .fa-solid, span{
+            vertical-align: middle;
+            padding-right: .25rem;
+        }
+    }
 }
 
 /* #region footer */
