@@ -391,6 +391,18 @@ section{
         #designit{
             background-color: var(--drop-designit);
         }
+
+        #arizona-state-uni{
+            background-color: var(--drop-asu);
+        }
+
+        #florida-uni{
+            background-color: var(--drop-uf);
+        }
+
+        #topps{
+            background-color: var(--drop-topps);
+        }
     }
 }
 /* #endregion main */
