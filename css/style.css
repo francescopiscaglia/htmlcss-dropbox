@@ -155,6 +155,10 @@ section:not(#sponsor, #jumbotron){
     padding: .5rem;
 }
 
+.btn:hover{
+    opacity: 0.5;
+}
+
 .pt-2rem{
     padding-top: 2rem;
 }
@@ -181,6 +185,7 @@ section:not(#sponsor, #jumbotron){
 
         a{
             text-decoration: none;
+            color: var(--drop-dark);
         }
 
         a:not(.btn){
@@ -188,7 +193,7 @@ section:not(#sponsor, #jumbotron){
         }
     }
 
-    a:hover {
+    a:not(.btn):hover {
         border-bottom: 2px solid var(--drop-btn);
     }
 } 
