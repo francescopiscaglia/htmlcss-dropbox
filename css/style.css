@@ -18,6 +18,14 @@ a:nth-of-type(.buy-now){
     color: var(--drop-dark);
 }
 
+p{
+    font-size: .8rem;
+}
+
+a{
+    font-size: .8rem;
+}
+
 section:not(#sponsor){
     padding: 2rem 0rem;
 }
@@ -199,7 +207,7 @@ section:not(#sponsor){
 
         p{
             padding-bottom: 2.5rem;
-            font-size: .85rem;
+            font-size: .8rem;
             line-height: 1.15rem;
         }
 
@@ -215,6 +223,10 @@ section:not(#sponsor){
 }
 
 #plan{
+
+    span{
+        font-size: .75rem;
+    }
 
     h2{
         padding-bottom: 2rem;
@@ -259,7 +271,7 @@ section:not(#sponsor){
         padding: .5rem 0rem;
         text-align: center;
         border: 1px solid lightgray;
-        font-size: .75rem;
+        
     }
 
     .plan-option{
@@ -442,11 +454,11 @@ section:not(#sponsor){
 
         .sponsor-description{
             margin-top: 2rem;
-            font-size: .85rem;
-
+            
             span{
                 display: inline-block;
                 margin-top: 2rem;
+                font-size: .8rem;
             }
         }
     }
@@ -559,5 +571,4 @@ section:not(#sponsor){
         }
     }
 }
-
-/* #region footer */
+/* #endregion footer */
