@@ -26,7 +26,7 @@ a{
     font-size: .8rem;
 }
 
-section:not(#sponsor){
+section:not(#sponsor, #jumbotron){
     padding: 2rem 0rem;
 }
 /* #endregion common */
@@ -63,13 +63,11 @@ section:not(#sponsor){
 .container{
     width: 70%;
     margin: auto;
-    padding: 2rem 0rem;
 }
 
 .container-sm{
     width: 60%;
     margin: auto;
-    padding: 2rem 0rem;
 }
 
 .d-flex{
@@ -196,7 +194,7 @@ section:not(#sponsor){
     h1{
         font-size: 3.3rem;
         line-height: 4rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .col-4{
@@ -217,12 +215,18 @@ section:not(#sponsor){
 
         .fa-arrow-down{
             font-size: 2rem;
-            padding-top: 2rem;
+           
         }
+    }
+
+    .container{
+        position: relative;
+        top: 4rem;
     }
 }
 
 #plan{
+    margin-top: 4rem;
 
     span{
         font-size: .75rem;
