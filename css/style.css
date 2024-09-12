@@ -105,7 +105,12 @@ section{
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -1rem;
     align-items: stretch;
+}
+
+[class^="col-"]{
+    padding: 1rem;
 }
 
 .col-2{
@@ -238,10 +243,6 @@ section{
 
     .row{
         margin-top: 2rem;
-
-        .col-4{
-            padding: 0 1rem 0 0;
-        }
     }
 
     .col-12{
