@@ -44,49 +44,9 @@ section{
 
 /* #region utilities */
 .debug{
-    #app-header{
-        background-color: lightcyan;
 
-        .left-menu{
-            background-color: lightcoral;
-            width: 50%;
-        }
-
-        .right-menu{
-            background-color: burlywood;
-            width: 50%;
-        }
-    }
-
-    section{
-        background-color: lightgrey;
-
-        .container{
-            background-color: yellowgreen;
-        
-        }
-        
-        .row{
-            background-color: yellow;
-            margin-left: -1rem;
-        }
-
-        .col-4{
-            background-color: red;
-            height: 100px;
-            border: 1px dashed black;
-            padding: 0rem 0rem 1rem 1rem;
-           
-        }
-
-        .col-8{
-            background-color: black;
-           
-        }
-    }
-
-    .container-sm{
-        background-color: blue;
+    *{
+        border: 1px dashed black;
     }
 }
 
@@ -369,21 +329,6 @@ section{
 
 #operation{
 
-    .container-sm{
-
-        h2{
-            
-        }
-    }
-
-    .row{
-        margin-left: -2rem;
-
-        .col-4{
-            padding: 2rem 0rem 1rem 2rem;
-        }
-    }
-
     .card-details{
 
         h3{
@@ -395,6 +340,17 @@ section{
             font-size: .75rem;
             line-height: 1rem;
         }
+    }
+}
+
+#call-to-action{
+
+    h2{
+        padding-bottom: 3rem;
+    }
+
+    a{
+        font-size: .75rem;
     }
 }
 /* #endregion main */
