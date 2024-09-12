@@ -18,8 +18,8 @@ a:nth-of-type(.buy-now){
     color: var(--drop-dark);
 }
 
-section{
-    padding-top: 2rem 0rem;
+section:not(#sponsor){
+    padding: 2rem 0rem;
 }
 /* #endregion common */
 
