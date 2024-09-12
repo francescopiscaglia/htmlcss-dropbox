@@ -515,5 +515,32 @@ section:not(#sponsor){
         transform: rotate(180deg);
     }
 }
-
 /* #endregion main */
+
+/* #region footer */
+#app-footer{
+    background-color: var(--drop-dark);
+    color: var(--drop-light);
+
+    .flex-item{
+        padding-top: 2.5rem;
+    }
+
+    h3{
+        padding-bottom: 1rem;
+    }
+
+    li{
+        list-style-type: none;
+        padding-top: .75rem;
+
+
+        a{
+            text-decoration: none;
+            color: lightgray;
+            font-size: .75rem;
+        }
+    }
+}
+
+/* #region footer */
