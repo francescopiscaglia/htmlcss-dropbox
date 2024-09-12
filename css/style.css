@@ -476,24 +476,44 @@ section{
 
 #faq{
 
+    h2{
+        padding-bottom: 2rem;
+        border-bottom: 1px solid gray;
+    }
+
     .q-a-a{
+        padding: 2rem 0rem;
+        position: relative;
+        border-bottom: 1px solid gray;
+
+        .question{
+            font-weight: bold;
+        }
+
+        .down-arrow{
+            position: absolute;
+            right: 0;
+        }
+
         .question, .down-arrow{
             display: inline-block;
         }
 
     }
     
+    .answer{
+        font-size: .8rem;
+        padding-top: 2rem;
+        display: none;
+    }
+    
+    .q-a-a:hover .answer{
+        display: block;
+    }
+    
+    .q-a-a:hover .down-arrow{
+        transform: rotate(180deg);
+    }
 }
 
-.answer{
-    display: none;
-}
-
-.q-a-a:hover .answer{
-    display: block;
-}
-
-.q-a-a:hover .down-arrow{
-    transform: rotate(180deg);
-}
 /* #endregion main */
