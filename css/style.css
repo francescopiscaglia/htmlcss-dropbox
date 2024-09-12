@@ -19,7 +19,7 @@ a:nth-of-type(.buy-now){
 }
 
 section{
-    padding-top: 2rem;
+    padding-top: 2rem 0rem;
 }
 /* #endregion common */
 
@@ -246,7 +246,7 @@ section{
     }
 
     .col-12{
-        margin-top: 5rem;
+        margin-top: 2rem;
 
         .plan-option{
             display: flex;
@@ -303,7 +303,7 @@ section{
             }
 
             span{
-                display: block;
+                display: inline-block;
                 padding-bottom: 1rem;
             }
 
