@@ -323,6 +323,7 @@ section:not(#sponsor, #jumbotron){
             .btn{
                 padding: .5rem;
                 text-decoration: none;
+                text-align: center;
             }
 
             .buy-now{
