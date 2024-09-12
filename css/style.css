@@ -64,7 +64,14 @@ section{
 
 .d-flex{
     display: flex;
-    flex-wrap: wrap;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
 }
 
 .fw-wrap{
@@ -364,6 +371,17 @@ section{
 
     a{
         font-size: .75rem;
+    }
+}
+
+#sponsor{
+
+    .sponsor{
+
+        img{
+            width: 6rem;
+           
+        }
     }
 }
 /* #endregion main */
