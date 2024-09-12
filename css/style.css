@@ -70,6 +70,7 @@ section:not(#sponsor, #jumbotron){
     margin: auto;
 }
 
+/* #region flex */
 .d-flex{
     display: flex;
 }
@@ -93,7 +94,9 @@ section:not(#sponsor, #jumbotron){
 .fd-column{
     flex-direction: column;
 }
+/* #endregion flex */
 
+/* #region structur */
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -148,6 +151,7 @@ section:not(#sponsor, #jumbotron){
 .col-12{
     width: 100%;
 }
+/* #endregion structur */
 
 .btn{
     color: var(--drop-light);
@@ -185,7 +189,7 @@ section:not(#sponsor, #jumbotron){
 
         a{
             text-decoration: none;
-            color: var(--drop-dark);
+            &:not(.btn): var(--drop-dark);
         }
 
         a:not(.btn){
