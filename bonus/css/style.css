@@ -611,3 +611,27 @@ section:not(#sponsor, #jumbotron){
     }
 }
 /* #endregion footer */
+
+/* #region media query */
+@media screen and (max-width: 1024px) {
+
+    .col-6-sm{
+        width: 50%;
+        padding-bottom: 3rem;
+    }
+
+    .col-12-sm{
+        width: 100%;
+    }
+
+    .col-7-sm{
+        width: calc((100% / 12) * 7);
+    }
+
+    .col-5-sm{
+        width: calc((100% / 12) * 5);
+    }
+    
+}
+
+/* #endregion media query */
