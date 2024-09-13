@@ -634,4 +634,64 @@ section:not(#sponsor, #jumbotron){
     
 }
 
+
+@media screen and (max-width:808px) {
+
+    .col-12-xsm{
+        width: 100%;
+    }
+
+    .col-6-xsm{
+        width: 50%;
+    }
+
+    #app-header{
+        .left-menu, .right-menu{
+            a{
+                margin: -.5rem 0 0 -1rem;
+            }
+        }  
+    }
+
+    #jumbotron{
+
+        h1{
+            font-size: 2rem;
+            line-height: 1;
+        }
+    }
+
+    #operation{
+
+        .card-details{
+
+            h3, p{
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:720px) {
+    
+    .col-12-xxsm{
+        width: 100%;
+    }
+
+    #plan{
+
+        .col-12{
+
+            .specific-info{
+                width: 50%;
+                a{
+                    font-size: .75rem;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+}
 /* #endregion media query */
