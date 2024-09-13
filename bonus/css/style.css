@@ -698,7 +698,23 @@ section:not(#sponsor, #jumbotron){
 
 
 @media screen and (max-width:568px) {
-    
+
+    .col-12-sm-568{
+        width: 100%;
+    }
+
+    #follow-up{
+
+        .container-sm{
+            text-align: center;
+
+            .btn{
+                position: relative;
+            }
+        }
+        
+    }
+
     #app-footer{
         .fw-wrap-568{
             flex-wrap: wrap;
