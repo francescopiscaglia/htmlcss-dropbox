@@ -703,6 +703,18 @@ section:not(#sponsor, #jumbotron){
         width: 100%;
     }
 
+    .text-align-center-568{
+        text-align: center;
+    }
+
+    .fg-grow-568{
+        flex-grow: 1;
+    }
+
+    .pt-0{
+        padding-top: 0;
+    }
+
     #follow-up{
 
         .container-sm{
@@ -720,9 +732,6 @@ section:not(#sponsor, #jumbotron){
             flex-wrap: wrap;
         }
 
-        .text-align-center-568{
-            text-align: center;
-        }
 
         .flex-item{
             width: 100%;
