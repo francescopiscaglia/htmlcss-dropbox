@@ -673,6 +673,7 @@ section:not(#sponsor, #jumbotron){
     }
 }
 
+
 @media screen and (max-width:720px) {
     
     .col-12-xxsm{
@@ -693,5 +694,28 @@ section:not(#sponsor, #jumbotron){
         }
     }
 
+}
+
+
+@media screen and (max-width:568px) {
+    
+    #app-footer{
+        .fw-wrap-568{
+            flex-wrap: wrap;
+        }
+
+        .text-align-center-568{
+            text-align: center;
+        }
+
+        .flex-item{
+            width: 100%;
+        }
+
+        hr{
+            margin: auto;
+            margin-top: 2rem;
+        }
+    }
 }
 /* #endregion media query */
