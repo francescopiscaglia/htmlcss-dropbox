@@ -9,6 +9,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 img{
     max-width: 100%;
 }
@@ -174,8 +175,12 @@ section:not(#sponsor, #jumbotron){
 /* #region header */
 #app-header{
     display: flex;
+    background-color: var(--drop-light);
     justify-content: space-between;
-    box-shadow: 0 0 10px #a1a1a1;
+    box-shadow: 0 0 10x #a1a1a1;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
     
     .left-menu, .right-menu{
         font-size: .65rem;
@@ -188,18 +193,18 @@ section:not(#sponsor, #jumbotron){
 
         a{
             text-decoration: none;
-
+            vertical-align: middle;
             &:not(.btn){
                 color: var(--drop-dark);;
             } 
         }
 
-        a:not(.btn){
+        a:not(.btn, #logo){
             padding: 1rem;
         }
     }
 
-    a:not(.btn):hover {
+    a:not(.btn, #logo):hover {
         border-bottom: 2px solid var(--drop-btn);
     }
 } 
