@@ -617,6 +617,35 @@ section:not(#sponsor, #jumbotron){
 /* #endregion footer */
 
 /* #region media query */
+@media screen and (max-width:1161px) {
+
+    .col-12-sm-1161{
+        width: 100%;
+        padding-bottom: 0rem;
+    }
+
+    .pb-0{
+        padding-bottom: 0rem;
+    }
+    
+    .pl-0{
+        padding-left: 0rem;
+    }
+    
+    .p-rel{
+        position: relative;
+    }
+    
+    #jumbotron{
+
+        .fa-arrow-down{
+            position: absolute;
+            right: .5rem;
+            bottom: 6rem;
+        }
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     .col-6-sm{
@@ -722,6 +751,10 @@ section:not(#sponsor, #jumbotron){
     .pt-0{
         padding-top: 0;
     }
+    
+    .p-rel{
+        position: relative;
+    }
 
     #app-header{
         flex-direction: column;
@@ -743,6 +776,29 @@ section:not(#sponsor, #jumbotron){
 
         .btn{
             padding: .25rem;
+        }
+    }
+
+    #jumbotron{
+
+        .fa-arrow-down{
+            position: absolute;
+            right: .5rem;
+            bottom: 5.5rem;
+        }
+    }
+
+    #plan{
+
+        .col-12{
+
+            .specific-info{
+                width: 50%;
+                a{
+                    font-size: .6rem;
+                    display: inline-block;
+                }
+            }
         }
     }
 
