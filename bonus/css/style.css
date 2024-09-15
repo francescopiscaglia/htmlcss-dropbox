@@ -819,7 +819,7 @@ section:not(#sponsor, #jumbotron){
         .q-a-a{
             
             p{
-                font-size: .75rem;
+                font-size: .65rem;
             }
 
             .fa-angle-down{
@@ -833,6 +833,21 @@ section:not(#sponsor, #jumbotron){
             flex-wrap: wrap;
         }
 
+        .flex-item{
+            padding-top: 1rem;
+        }
+
+        h3{
+            font-size: 1rem;
+        }
+
+        ul{
+            display: none;
+        }
+
+        .flex-item:hover ul{
+            display: block;
+        }
 
         .flex-item{
             width: 100%;
